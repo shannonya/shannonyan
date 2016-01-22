@@ -1,0 +1,446 @@
+#hero{
+
+   /*background-image: url("ombre.jpg") 
+   background: -moz-linear-gradient(right,#66FFFF,#CC0099);
+    
+color: white;
+
+text-shadow:0 0 0;
+*/
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#66ffff+0,cc0099+100 */
+background: #66ffff; /* Old browsers */
+background: -moz-linear-gradient(left, #66ffff 0%, #cc0099 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #66ffff 0%,#cc0099 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #66ffff 0%,#cc0099 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffff', endColorstr='#cc0099',GradientType=1 ); /* IE6-9 */
+copy
+}
+p{
+text-shadow:0 0 0;
+    font-size: 20px;
+}
+
+.btn btn-primary btn-lg{
+
+color: white;
+text-shadow:0 0 0;
+}
+
+
+h1 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.ui-body-c, .ui-overlay-c {  }
+
+
+/*.round-button {
+    width:10%;
+/*    position: absolute;
+    
+    left: 200px; */
+    
+}
+/*.round-button-circle {
+    width: 120%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:10px solid #cfdcec;
+    overflow:hidden;
+    
+  /*  background: #4679BD; */
+    /*background-image: url("shannonProject.jpg");
+    box-shadow: 0 0 3px gray;
+ 
+/*}
+.round-button-circle:hover {
+    
+opacity: 0.4;
+}
+.round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    
+    color: white;
+    text-align:center;
+    /*color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+ 
+text-shadow:0 0 0
+}*/
+
+/*#filterTable-input{
+    position: relative;
+    top: 100px;
+    */
+
+
+}
+
+/*div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #8AC007;
+} */
+
+
+
+
+.circle-container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    outline: none;
+    border-radius: 50%;
+    margin: 1em auto 0;
+    
+}
+.circle-container a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 24px; height: 24px;
+    width:100%;
+    line-height:1em;
+    margin-top:-10.5em;
+    width:10%;
+    text-align:center;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+    margin: -1em;
+}
+
+.circle-container img {
+    margin-top:-130px;
+    padding-right: 20px;
+    display: block;
+    width:100%;
+}
+
+.deg0 {
+transform: translate(13em);
+    width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+} /* 12em = half the width of the wrapper */
+#center{
+background-image: url("shannonproject.png");
+}
+#deg0{
+background-image: url("hannah3.jpg");
+}
+.deg45 {
+transform: rotate(45deg) translate(13em) rotate(-45deg);
+width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg45{
+background-image: url("Angela4.jpg");
+}
+.deg90 {
+transform: rotate(-90deg) translate(13em) rotate(90deg);
+width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg90{
+background-image: url("Jack.jpg");
+}
+.deg135 {
+transform: rotate(135deg) translate(13em) rotate(-135deg);
+width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg135{
+background-image: url("sheryl.jpg");
+}
+.deg180 {
+transform: translate(-13em);
+width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg180{
+background-image: url("reshma.png");
+}
+.deg225 {
+transform: rotate(225deg) translate(13em) rotate(-225deg);
+width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg225{
+background-image: url("belia.jpg");
+}
+.deg270 {
+transform: rotate(-270deg) translate(13em) rotate(270deg);
+width:100%;
+    line-height:1em;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg270{
+background-image: url("johnSmith.jpg");
+}
+.deg315 { transform: rotate(315deg) translate(13em) rotate(-315deg);
+width:100%;
+    margin-top:-0.5em;
+    width:10%;
+    text-align:right;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+#deg315{
+background-image: url("celena.jpg");
+}
+.round-button-circle1 {
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:10px solid #cfdcec;
+    overflow:hidden;
+    
+  /*  background: #4679BD; */
+    box-shadow: 0 0 5px gray;
+ 
+}
+
+.round-button-circle1:hover {
+    
+opacity: 0.4;
+}
+
+.search{
+margin-top:600px;
+}
+/*Start of Angela's css */
+
+#username{
+font-family: 'Ubuntu', sans-serif;
+color: white;
+font-size:30px;
+}
+
+#newsfeed{
+font-family: 'Ubuntu', sans-serif;
+margin:20px;
+position: relative;
+bottom: 90px;
+font-size:45px;
+color: white;
+}
+
+p2{
+font-size:30px;
+}
+
+p3{
+font-size:20px;
+}
+
+
+.col-md-4 {
+color: #FFFFFF;
+position: relative;
+bottom: 100px;
+}
+
+#name{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+button{
+    margin-left:500px;
+}
+#complimentButton{
+    width: 250px;
+    margin-left: 165px
+
+}
+#textBox{
+    margin-top: 30px;
+    margin-left: 0;
+    width: 100%;
+    
+}
+
+#postButton2{
+    width:100%;
+}
+#postColorBoxes{
+
+    background-color: #CC0099;
+}
+#postColorBoxes1{
+   
+    background-color: #8462B7;
+}
+
+#postColorBoxes2{
+
+    background-color: #00B2C0;
+}
+#postColorBoxes3{
+
+    background-color: #66FFFF;
+}
+#postColorBoxes4{
+
+    background-color: #CC0099;
+}
+#postColorBoxes5{
+  
+    background-color: #8462B7;
+}
+#postColorBoxes6{
+  
+    background-color: #00B2C0;
+}
+
+#postColorBoxes7{
+   
+    background-color: #66FFFF;
+}
+
+
+#shoutOut2{
+
+    
+    font-family: 'Merriweather', serif;
+    color: #FFFFFF;
+    font-size:50px;
+    margin-left:50px;
+    
+    
+}
+
+#logo{
+    width:250px;
+    height:90px;
+    margin-left:0;
+    margin-top:0;
+}
+#logo2{
+    width:110px;
+    height:35px;
+    margin-left:0;
+    margin-top:0;
+}
+
+#shannonShoutout{
+    position: relative;
+    left: 0px;
+    border-radius:25px;
+    width:300px;
+    height:250px;
+    background-color:#79C3E4;
+    
+}
+#hannahShoutout{
+    position: relative;
+    left: 135px;
+    border-radius:25px;
+    width:300px;
+    height:250px;
+    background-color:#79C3E4;
+}
+#angelaShoutout{
+    position: relative;
+    left: 230px;
+    border-radius:25px;
+    width:300px;
+    height:250px;
+    background-color:#79C3E4;
+    
+    
+#creators{
+font-family: 'Yesteryear', cursive;
+font-size:60px;
+}
+
+    
+  
+
+
+
+
+
+
+
